@@ -37,6 +37,13 @@ body {
   color: var(--white);
   font-size: 1.25rem;
   font-weight: 400;
+  display: inline-block;
+  transition: color 200ms;
+  &:hover,
+  &:active {
+    color: var(--primary-cyan);
+    cursor: pointer;
+  }
 }
 
 .description {
@@ -85,6 +92,12 @@ body {
 
   .name {
     color: var(--white);
+    transition: color 200ms;
+    &:hover,
+    &:active {
+      color: var(--primary-cyan);
+      cursor: pointer;
+    }
   }
 }
 
